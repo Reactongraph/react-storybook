@@ -1,29 +1,29 @@
 export const data = {
 	datasets: [
 		{
-			label: "Africa",
+			label: "Label1",
 			backgroundColor: ["#3e95cd"],
-			data: [2478]
+			data: [2500]
 		},
 		{
-			label: "Asia",
+			label: "Label2",
 			backgroundColor: ["#8e5ea2"],
-			data: [3267]
+			data: [3003]
 		},
 		{
-			label: "Europe",
+			label: "Label3",
 			backgroundColor: ["#3cba9f"],
-			data: [734]
+			data: [700]
 		},
 		{
-			label: "Latin America",
+			label: "Label4",
 			backgroundColor: ["#e8c3b9"],
-			data: [784]
+			data: [1100]
 		},
 		{
-			label: "North America",
+			label: "Label5",
 			backgroundColor: ["#c45850"],
-			data: [433]
+			data: [555]
 		}
 	]
 }
@@ -33,10 +33,12 @@ export const options = {
 		display: true,
 		text: 'Bar Graph'
 	},
+
 	legend: {
 		display: true,
 		position: "bottom"
 	},
+
 	responsive: true,
 	maintainAspectRatio: true
 }
