@@ -1,18 +1,18 @@
 import React from "react"
 import { storiesOf } from "@storybook/react"
 import { withInfo } from "@storybook/addon-info"
-import StoryMetaData from "./StoryMetaData"
+import tableMetaData from "./tableMetaData"
 import Table from "./Table"
 
-const storyConstant = new StoryMetaData()
+const tableData = new tableMetaData()
 
 storiesOf("Table", module)
 .add("Table", withInfo("description") (() => {
 	return (
 		<div>
 			<Table className="table"
-				tableHead={storyConstant.tableHead}
-				tableData={storyConstant.userDetails}
+				tableHead={tableData.tableHead}
+				tableData={tableData.userDetails}
 			/>
 		</div>
 	)

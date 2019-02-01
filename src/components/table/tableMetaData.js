@@ -1,4 +1,4 @@
-class StoryMetaData {
+class tableMetaData {
 
 	userDetails = [
 		{ "first_name": "First_Name", "last_name": "Last_Name", "email": "abc@gmail.com", "dob": "DD-MM-YYYY", "location": null, "organization": "org" },
@@ -17,4 +17,4 @@ class StoryMetaData {
 
 }
 
-export default StoryMetaData
+export default tableMetaData
