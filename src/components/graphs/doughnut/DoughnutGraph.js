@@ -6,7 +6,7 @@ import PropTypes from "prop-types";
 ChartJS.register(ArcElement, Tooltip, Legend);
 
 const DoughnutGraph = ({ options, data }) => {
-  return <Doughnut options={options} data={data} />;
+  return <Doughnut options={options} data={data} height={731} width={730} />;
 };
 
 DoughnutGraph.propTypes = {

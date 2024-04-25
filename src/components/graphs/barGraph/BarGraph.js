@@ -21,7 +21,7 @@ ChartJS.register(
 );
 
 const BarGraph = ({ options, data }) => {
-  return <Bar options={options} data={data} />;
+  return <Bar options={options} data={data} height={349} width={698} />;
 };
 
 BarGraph.propTypes = {

@@ -23,7 +23,7 @@ ChartJS.register(
 );
 
 const LineGraph = ({ options, data }) => {
-  return <Line options={options} data={data} />;
+  return <Line options={options} data={data} width={730} height={365}/>;
 };
 
 LineGraph.propTypes = {
